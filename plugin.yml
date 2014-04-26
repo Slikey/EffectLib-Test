@@ -1,0 +1,37 @@
+name: EffectLibTest
+version: v1.0-TEST
+description: Test the EffectLib
+author: Slikey
+website: http://www.kevin-carstens.de/
+prefix: Effect Library Test
+main: de.slikey.effectlib.test.EffectLibTest
+load: POSTWORLD
+database: false
+depend: [EffectLib]
+commands:
+  arc:
+  atom:
+  bigbang:
+  bleed:
+  cone:
+  cube:
+  dna:
+  explode:
+  flame:
+  fountain:
+  grid:
+  helix:
+  image:
+  jump:
+  line:
+  music:
+  musicloc:
+  shield:
+  skyrocket:
+  smoke:
+  star:
+  text:
+  trace:
+  turn:
+  vortex:
+  warp:
