@@ -22,6 +22,7 @@ commands:
   fountain:
   grid:
   helix:
+  hill:
   image:
   jump:
   line:

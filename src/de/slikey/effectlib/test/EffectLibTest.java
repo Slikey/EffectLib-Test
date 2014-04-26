@@ -36,6 +36,7 @@ public class EffectLibTest extends JavaPlugin implements Listener {
 		getCommand("fountain").setExecutor(new FountainCommand(effectManager));
 		getCommand("grid").setExecutor(new GridCommand(effectManager));
 		getCommand("helix").setExecutor(new HelixCommand(effectManager));
+		getCommand("hill").setExecutor(new HillCommand(effectManager));
 		getCommand("image").setExecutor(new ImageCommand(this, effectManager));
 		getCommand("jump").setExecutor(new JumpCommand(effectManager));
 		getCommand("line").setExecutor(new LineCommand(effectManager));
