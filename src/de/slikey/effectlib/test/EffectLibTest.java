@@ -25,7 +25,6 @@ public class EffectLibTest extends JavaPlugin implements Listener {
 	private void loadCommands() {
 		getCommand("arc").setExecutor(new ArcCommand(effectManager));
 		getCommand("atom").setExecutor(new AtomCommand(effectManager));
-		getCommand("bigbang").setExecutor(new BigBangCommand(effectManager));
 		getCommand("bleed").setExecutor(new BleedCommand(effectManager));
 		getCommand("cone").setExecutor(new ConeCommand(effectManager));
 		getCommand("cube").setExecutor(new CubeCommand(effectManager));
