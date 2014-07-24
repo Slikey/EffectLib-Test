@@ -28,6 +28,7 @@ public class EffectLibTest extends JavaPlugin implements Listener {
 		getCommand("bleed").setExecutor(new BleedCommand(effectManager));
 		getCommand("cone").setExecutor(new ConeCommand(effectManager));
 		getCommand("cube").setExecutor(new CubeCommand(effectManager));
+        getCommand("cylinder").setExecutor(new CylinderCommand(effectManager));
 		getCommand("dna").setExecutor(new DnaCommand(effectManager));
 		getCommand("donut").setExecutor(new DonutCommand(effectManager));
 		getCommand("explode").setExecutor(new ExplodeCommand(effectManager));
@@ -50,6 +51,7 @@ public class EffectLibTest extends JavaPlugin implements Listener {
 		getCommand("turn").setExecutor(new TurnCommand(effectManager));
 		getCommand("vortex").setExecutor(new VortexCommand(effectManager));
 		getCommand("warp").setExecutor(new WarpCommand(effectManager));
+        getCommand("wave").setExecutor(new WaveCommand(effectManager));
 	}
 
 }

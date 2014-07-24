@@ -1,5 +1,5 @@
 name: EffectLibTest
-version: v1.0-TEST
+version: v1.8-TEST
 description: Test the EffectLib
 author: Slikey
 website: http://www.kevin-carstens.de/
@@ -15,6 +15,7 @@ commands:
   bleed:
   cone:
   cube:
+  cylinder:
   dna:
   donut:
   explode:
@@ -37,3 +38,4 @@ commands:
   turn:
   vortex:
   warp:
+  wave:
