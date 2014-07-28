@@ -30,7 +30,8 @@ public class EffectLibTest extends JavaPlugin implements Listener {
 		getCommand("cube").setExecutor(new CubeCommand(effectManager));
         getCommand("cylinder").setExecutor(new CylinderCommand(effectManager));
 		getCommand("dna").setExecutor(new DnaCommand(effectManager));
-		getCommand("donut").setExecutor(new DonutCommand(effectManager));
+        getCommand("donut").setExecutor(new DonutCommand(effectManager));
+        getCommand("earth").setExecutor(new EarthCommand(effectManager));
 		getCommand("explode").setExecutor(new ExplodeCommand(effectManager));
 		getCommand("flame").setExecutor(new FlameCommand(effectManager));
 		getCommand("fountain").setExecutor(new FountainCommand(effectManager));
